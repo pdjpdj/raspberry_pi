@@ -7,4 +7,3 @@ while True:
   time.sleep(inter)
   onboardLED.value(0)
   time.sleep(inter)
-

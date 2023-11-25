@@ -31,4 +31,3 @@ while True:
     else:
         print("no buttons pressed")
         red.value(1)
-    

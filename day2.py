@@ -41,5 +41,3 @@ while counter < 11:
 red.value(0)
 amber.value(0)
 green.value(0)
-
-
