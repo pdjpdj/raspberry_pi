@@ -1,5 +1,4 @@
 from machine import ADC, Pin, PWM
-import time
 
 button1 = Pin(12, Pin.IN, Pin.PULL_DOWN)
 button2 = Pin(8, Pin.IN, Pin.PULL_DOWN)
