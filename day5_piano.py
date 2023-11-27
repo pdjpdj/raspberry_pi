@@ -11,19 +11,12 @@ potentiometer = ADC (Pin(27))
 
 #Notes:
 A = 440
-As = 466
 B = 494
 C = 523
-Cs = 554
 D = 587
-Ds = 622
 E = 659
 F = 740
 G = 784
-Gs = 830
-
-
-volume = 2500
 
 def playNote(note):
   buzzer.duty_u16(potentiometer.read_u16())
