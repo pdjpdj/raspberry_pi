@@ -1,13 +1,5 @@
-from machine import Pin
+from hardware.components import button1, button2, button3, red, amber, green
 import time
-
-button1 = Pin(13, Pin.IN, Pin.PULL_DOWN)
-button2 = Pin(8, Pin.IN, Pin.PULL_DOWN)
-button3 = Pin(3, Pin.IN, Pin.PULL_DOWN)
-
-red = Pin(18, Pin.OUT)
-amber = Pin(19, Pin.OUT)
-green = Pin(20, Pin.OUT)
 
 while True:
     time.sleep(0.2)

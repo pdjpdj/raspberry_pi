@@ -1,8 +1,5 @@
-from machine import Pin, PWM, ADC
+from hardware.components import potentiometer, buzzer
 import time
-
-potentiometer = ADC (Pin(27))
-buzzer = PWM(Pin(13))
 
 reading = 0
 

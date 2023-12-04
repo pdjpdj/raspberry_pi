@@ -1,11 +1,5 @@
-from machine import ADC, Pin, PWM
 import time
-
-lightsensor = ADC(Pin(26))
-red = Pin(18, Pin.OUT)
-amber = Pin(19, Pin.OUT)
-green = Pin(20, Pin.OUT)
-buzzer = PWM(Pin(13))
+from hardware.components import lightsensor, red, amber, green, buzzer
 
 while True:
   light = round(lightsensor.read_u16()/65535*100, 0)

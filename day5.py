@@ -1,11 +1,5 @@
-from machine import ADC, Pin, PWM
+from hardware.components import potentiometer, red, amber, green, buzzer
 import time
-
-buzzer = PWM(Pin(13))
-red = Pin(18, Pin.OUT)
-amber = Pin(19, Pin.OUT)
-green = Pin(20, Pin.OUT)
-potentiometer = ADC (Pin(27))
 
 #Notes:
 A = 440

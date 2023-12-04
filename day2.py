@@ -1,9 +1,5 @@
-from machine import Pin
+from hardware.components import red, amber, green
 import time
-
-red = Pin(18, Pin.OUT)
-amber = Pin(19, Pin.OUT)
-green = Pin(20, Pin.OUT)
 
 counter = 1
 

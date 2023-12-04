@@ -1,11 +1,6 @@
-from machine import Pin, PWM
 import time
 
-pir = Pin(26, Pin.IN, Pin.PULL_DOWN)
-red = Pin(18, Pin.OUT)
-amber = Pin(19, Pin.OUT)
-green = Pin(20, Pin.OUT)
-buzzer = PWM(Pin(13))
+from hardware.components import pir, red, amber, green, buzzer
 
 buzzer.duty_u16(0)
 print("Warming up...")
