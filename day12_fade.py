@@ -4,7 +4,7 @@ from neopixel import NeoPixel
 
 strip = NeoPixel(Pin(28), 15)
 
-delay =  0.0001
+delay =  0.00001
 while True:
     for i in range(1,255,1):
       for pos in range(15):
